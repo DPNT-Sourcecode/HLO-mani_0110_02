@@ -15,6 +15,7 @@ echo "Running using packaged JRE:"
 @echo on
 @rem Execute Record
 %JAVA_BIN%                               ^
+     -Dlog4j.skipJansi=true              ^
      -jar %JAR_FILE%                     ^
      --config %PARAM_CONFIG_FILE%        ^
      --store %PARAM_STORE_DIR%           ^
