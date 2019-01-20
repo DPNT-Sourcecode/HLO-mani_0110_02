@@ -19,5 +19,6 @@ echo "Running using packaged JRE:"
      --config %PARAM_CONFIG_FILE%        ^
      --store %PARAM_STORE_DIR%           ^
      --sourcecode %PARAM_SOURCECODE_DIR% ^
+     -nojline                            ^
      %CMD_LINE_ARGS%
 @echo off
